@@ -6,8 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: isGhPages ? '/gamenative-landing-page' : '',
-  assetPrefix: isGhPages ? '/gamenative-landing-page/' : '',
+  basePath: isGhPages ? 'https://github.com/Snap888/gamenative-landing-page' : '',
+  assetPrefix: isGhPages ? 'https://github.com/Snap888/gamenative-landing-page/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
